@@ -1,0 +1,19 @@
+name: Innovax Bridge
+version: "0.1.0"
+slug: innovax_bridge
+description: Evinizi Innovax Akıllı Ev paneline güvenle bağlar. Yalnızca dışarı doğru bağlanır; port açmaz.
+url: https://innovax.com.tr
+arch:
+  - amd64
+  - aarch64
+image: ghcr.io/innovaxsmarthome/innovax-bridge
+init: false
+startup: application
+boot: auto
+homeassistant_api: true
+options:
+  pairing_code: ""
+  log_level: info
+schema:
+  pairing_code: "str?"
+  log_level: "list(debug|info|warning|error)"
