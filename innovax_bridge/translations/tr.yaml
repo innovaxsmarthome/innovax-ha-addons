@@ -1,0 +1,10 @@
+configuration:
+  pairing_codes:
+    name: Eşleştirme kodları
+    description: Innovax panelinden aldığınız kodlar (her mekân için bir satır, ör. CAB4-8YTZ). Kodları yan menüdeki Innovax panelinden de ekleyebilirsiniz.
+  pairing_code:
+    name: Eşleştirme kodu (eski)
+    description: Eski sürümlerle uyumluluk için. Yeni kodları yukarıdaki listeye yazın.
+  log_level:
+    name: Kayıt düzeyi
+    description: Eklenti günlüğünde gösterilecek ayrıntı düzeyi.

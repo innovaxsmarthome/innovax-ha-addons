@@ -1,7 +1,7 @@
 name: Innovax Bridge
-version: "0.2.1"
+version: "0.3.0"
 slug: innovax_bridge
-description: Evinizi Innovax Akıllı Ev paneline güvenle bağlar. Yalnızca dışarı doğru bağlanır; port açmaz.
+description: Evinizi ve ofisinizi Innovax paneline güvenle bağlar. Yalnızca dışarı doğru bağlanır; port açmaz.
 url: https://innovax.com.tr
 arch:
   - amd64
@@ -11,9 +11,15 @@ init: false
 startup: application
 boot: auto
 homeassistant_api: true
+ingress: true
+ingress_port: 8099
+panel_icon: mdi:home-lightning-bolt
+panel_title: Innovax
 options:
-  pairing_code: ""
+  pairing_codes: []
   log_level: info
 schema:
+  pairing_codes:
+    - "str?"
   pairing_code: "str?"
   log_level: "list(debug|info|warning|error)"

@@ -1,0 +1,10 @@
+configuration:
+  pairing_codes:
+    name: Pairing codes
+    description: Codes from the Innovax panel (one per place, e.g. CAB4-8YTZ). You can also add places from the Innovax panel in the sidebar.
+  pairing_code:
+    name: Pairing code (legacy)
+    description: Kept for older versions. Put new codes in the list above.
+  log_level:
+    name: Log level
+    description: How much detail the add-on log shows.
