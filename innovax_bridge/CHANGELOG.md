@@ -1,5 +1,12 @@
 # Değişiklikler
 
+## 0.7.0
+
+- Hava tahmini: panelin hava tahmini kartı günlük ve saatlik tahmini Home Assistant'tan okur.
+- Takvim: takvim kartı seçili Home Assistant takvimlerinin önümüzdeki 7 günlük etkinliklerini gösterir.
+- Yapılacaklar: yapılacaklar / alışveriş listesi kartı maddeleri okur; panelden madde eklenir ve tamamlandı olarak işaretlenir.
+- Harita: kişi ve cihaz takipçilerinin konumu (enlem, boylam) panelin harita kartına iletilir.
+
 ## 0.6.0
 
 - Kapı, pencere ve hareket sensörleri: sensör kapalıdan açığa geçince (hareket algılayınca) Innovax'a bildirilir. Ev yöneticisi panelde Hesap › Bildirimler › "Kapı, pencere ve hareket" kartından sensör başına "Alarm kuruluyken" ya da "Her zaman" seçerse acil durum bildirimi gider.
