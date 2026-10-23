@@ -1,5 +1,12 @@
 # Değişiklikler
 
+## 0.8.0
+
+- Nemlendirici: hedef nem, kip ve aç/kapa panelden yönetilir; ölçülen nem gösterilir.
+- Medya oynatıcı: çalan parça, oynat/duraklat, önceki/sonraki, ses düzeyi ve sessiz.
+- Alarm paneli: panelden kurma (evde, dışarıda, gece, tatil) ve devre dışı bırakma. Home Assistant alarmı kod istiyorsa kod her seferinde girilir; Innovax kodu saklamaz.
+- Bitki: nem, sıcaklık, iletkenlik, ışık ve pil ölçümleri ile bakım uyarısı.
+
 ## 0.7.0
 
 - Hava tahmini: panelin hava tahmini kartı günlük ve saatlik tahmini Home Assistant'tan okur.
