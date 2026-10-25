@@ -1,5 +1,14 @@
 # Değişiklikler
 
+## 0.9.1
+
+- Güvenlik: Innovax panelinde eşleştirme kodu ekleme yalnız JSON isteğiyle kabul edilir; başka bir siteden form gönderimiyle kod eklenemez.
+- Innovax paneli açılışta hemen açılır; seçeneklerdeki eşleştirme kodları arkadan eşleşir (yavaş ağda panel beklemez).
+- Panel portu doluysa eklenti düşmez, hata loglanır.
+- Kaldırılan mekânın bulut oturumu arka planda yenilenmeye devam etmez.
+- Bulut yeni bir mekân türü gönderse de heartbeat çalışmaya devam eder.
+- 0.2.x'ten taşıma sırasında artakalan eski kimlik dosyası (`credentials.json`) açılışta silinir.
+
 ## 0.9.0
 
 - Otomasyon ve sahneler: Innovax panelinden kurulan otomasyonlar ve sahneler Home Assistant'a kaydedilir, açılıp kapatılır, çalıştırılır ve silinir. Innovax yalnızca kendi oluşturduğu kayıtlara dokunur.
