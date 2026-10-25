@@ -1,5 +1,9 @@
 # Değişiklikler
 
+## 0.9.2
+
+- Bulut komut kanalı bir kesintiden sonra kendiliğinden açılmazsa 90 saniye içinde güncel oturumla yeniden kurulur; panel komutlarının "Bridge zamanında yanıt vermedi" hatasında takılı kalması için eklentiyi yeniden başlatmak gerekmez.
+
 ## 0.9.1
 
 - Güvenlik: Innovax panelinde eşleştirme kodu ekleme yalnız JSON isteğiyle kabul edilir; başka bir siteden form gönderimiyle kod eklenemez.
